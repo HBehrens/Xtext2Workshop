@@ -1,0 +1,35 @@
+1. Tag Domainmodel ohne Xbase und Xtype
+	Codegenerierung mit Xtend2
+	Xtype einbetten um JVMTypes zu referenzieren
+
+	-> Überblick Xtext2
+	-> Xtend2 Folien
+	-> Tutorial Xtend2 durcharbeiten
+	
+	Ausbau1 -> Einfaches DomainModel ohne Xbase und ohne Generator
+	-> Generator bauen lassen
+	Ausbau2 -> Generator für einfaches DomainModel ohne Xbase
+	Ausbau3 -> Angereichert um Xbase zur Nutzung von Xtype
+	Ausbau4 -> Generator auf die Nutzung von ImportManager umbauen
+
+2. Tag Domainmodel mit Xbase
+	Modelinferrer
+	Typeprovider
+	Compiler
+	Interpreter
+
+-> Reihenfolge
+	Grammatik
+	Workflow
+	DomainmodelValueConverterService ?
+	ModelInferrer
+	QualifiednameProvider
+	IdentifiableSimpleNameprovider
+	Scopeprovider
+		-> getContextOfType
+			Private sichtbar machen für einen bestimmten Typen von einem bestimmten Typen
+	DomainmodelTypeProvider
+	Xtend2Generator
+	DomainmodelCompiler
+	Validator Typeconformance
+	
