@@ -5,13 +5,20 @@
 	-> Überblick Xtext2
 	-> Xtend2 Folien
 	-> Tutorial Xtend2 durcharbeiten
-	FirstModel
+
+	FirstModel 
+		-> DomainModel mit DataTypes ohne Operationen
 	FirstGenerator
+
+		-> Einfacher Generator auf Basis von Xtend2
+
 	MWE2 im RuntimeWS
-	GeneratorFromMain
+
+	GeneratorFromMain und optional 
+		injected GeneratorNameProvider
 	
 
 2. Tag Domainmodel mit Xbase
 	ModelInferrer
 	xbaseintegration
-	TypeConformance	
+	TypeConformance	-> JavaValidation
